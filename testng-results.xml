@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-02T16:15:03 IST" name="Default suite" finished-at="2025-05-02T16:15:15 IST" duration-ms="12056">
+    <groups>
+    </groups>
+    <test started-at="2025-05-02T16:15:03 IST" name="Default test" finished-at="2025-05-02T16:15:15 IST" duration-ms="12056">
+      <class name="Data.DataTypingExcel">
+        <test-method is-config="true" signature="getdata()[pri:0, instance:Data.DataTypingExcel@2d1ef81a]" started-at="2025-05-02T16:15:03 IST" name="getdata" finished-at="2025-05-02T16:15:03 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method is-config="true" signature="setdata()[pri:0, instance:Data.DataTypingExcel@2d1ef81a]" started-at="2025-05-02T16:15:03 IST" name="setdata" finished-at="2025-05-02T16:15:08 IST" duration-ms="4887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdata -->
+        <test-method signature="getTyping(java.util.HashMap)[pri:0, instance:Data.DataTypingExcel@2d1ef81a]" started-at="2025-05-02T16:15:08 IST" name="getTyping" description="To validate login" data-provider="Testdata" finished-at="2025-05-02T16:15:11 IST" duration-ms="3253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=reyaz123, ExpTitle=Adactin.com - Search Hotel, username=reyaz0806}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTyping -->
+        <test-method is-config="true" signature="ending()[pri:0, instance:Data.DataTypingExcel@2d1ef81a]" started-at="2025-05-02T16:15:11 IST" name="ending" finished-at="2025-05-02T16:15:15 IST" duration-ms="3304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ending -->
+      </class> <!-- Data.DataTypingExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

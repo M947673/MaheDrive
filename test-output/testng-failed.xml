@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Data.DataTypingExcel">
+      <class name="SmokeTesting.regressionTesting">
         <methods>
-          <include name="getTyping"/>
+          <include name="validateLoginTest"/>
           <include name="ending"/>
           <include name="setdata"/>
           <include name="getdata"/>
         </methods>
-      </class> <!-- Data.DataTypingExcel -->
+      </class> <!-- SmokeTesting.regressionTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+</suite>
